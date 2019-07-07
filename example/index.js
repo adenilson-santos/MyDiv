@@ -17,9 +17,6 @@ window.onload = () => {
         x: (containerW/2) - (photoW /2),
         y: 150
     })
-    console.log((containerW), (containerW/2))
-    console.log((containerW/2), (photoW /2))
-    console.log((containerW/2) - (photoW /2))
 
     myDiv.updateSize({
         width: 150

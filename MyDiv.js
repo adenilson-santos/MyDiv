@@ -111,7 +111,6 @@ class MyDiv {
             obj.style.left      = (this.width/2) - (child.width/2) 
             obj.style.top       = (this.height/2) - (child.height/2) 
         } else {
-            console.log(obj, child)
             obj.style.left      = child.x || this._newX(obj)   || 0
             obj.style.top       = child.y || this._newY(obj)   || 0
         }
